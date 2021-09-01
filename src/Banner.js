@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "./axios";
 import requests from "./requests";
 import "./Banner.css";
-import { FaPlay, FaPlus } from "react-icons/fa";
 
 function Banner() {
   const [movie, setMovie] = useState([]);
